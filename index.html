@@ -5,15 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nelson Muchonji</title>
+
+    <link rel="stylesheet" href="styles/stles.css">
 </head>
 <body>
-    <h1>Testing GitHub Pages</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eum consequatur voluptatibus labore placeat unde voluptas, nisi voluptates perspiciatis iusto. Eos neque placeat nemo architecto molestias? Voluptatibus quae voluptatem esse!</p>
-    <img src="landing.jpg" alt="landing page">
-    <ul>
-        <li>Listing things</li>
-        <li>Used terminal</li>
-        <li>Somehow not working</li>
-    </ul>
+    <h2>Get the Current Date</h2>
+    <div id="emessage" class="message"></div>
+
+    <main>
+        <p>Desired Format: <strong>long day of week, date month year</strong></p>
+        <fieldset>
+            <legend>toLocaleDateString Method</legend> <span id="date1"></span>
+        </fieldset>
+        <fieldset>
+            <legend>Custom Build using Date Methods (Old)</legend><span id="date2"></span>
+        </fieldset>
+
+    </main>
+
+    <script src="scripts/app.js"></script>
 </body>
 </html>
