@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&family=Oswald&display=swap');
+
+body{
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-family: 'Nunito', sans-serif;
+}
+
+.header{
+  font-family: 'Oswald', sans-serif;
+}
+
+.raised {
+  box-shadow: 0rem 0rem 1rem 0.5rem #0005;
+}
+
+.text-raised {
+  text-shadow: 4px 4px 16px #0009;
+}
+
+.flex {
+  display: flex;
+}
+
+.j-center{
+  justify-content: center;
+}
+
+.f-column{
+  flex-direction: column;
+}
+
+.a-center{
+  align-items: center;
+
+}
+
+.center{
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  background-color: darkslategray;
+}
+
+.img-box {
+  height: 8rem;
+  width: 7rem;
+  border-radius: 0.25rem;
+  margin-right: 2.5rem;
+  margin-left: 1rem;
+  object-fit: cover;
+}
+
+.link-box {
+  border-bottom: 0.1rem solid #c5c5c5;
+  border-top: 0.1rem solid #c5c5c5;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-yellow {
+  color: yellow;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.text-light {
+  color: #454545;
+}
