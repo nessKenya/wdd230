@@ -1,0 +1,9 @@
+@media screen and (min-width: 32.5em) {
+    body{
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        font-family: 'Nunito', sans-serif;
+      }
+}
