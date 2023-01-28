@@ -1,0 +1,48 @@
+@media screen and (min-width: 429px) and (max-width: 1023px){
+  .grid-container {
+    padding-top: 1rem;
+    display: grid;
+    grid-template-areas: 
+    "hero hero"
+    "news news"
+    "spotlights spotlights"
+    "join join"
+    "event weather";
+    gap: 1rem;
+  }
+  .spotlights{
+    grid-area: spotlights;
+    display: grid;
+    grid-template-areas: "spot-1 spot-2";
+    gap: 0.5rem;
+    padding: 1rem;
+    background-color: #46380055;
+  }
+  .join {
+    grid-area: join;
+    display: block;
+  }
+
+  .footer-top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .footer-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: left;
+  }
+
+
+  .footer-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
