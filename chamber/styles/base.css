@@ -21,7 +21,7 @@ nav{
   align-items: center;
 }
 
-#logo > img {
+#logo a > img {
   height: 40px;
 }
 
@@ -32,6 +32,11 @@ nav{
 #social-links > li{
   display: inline-block;
   margin-right: 0.5rem;
+}
+
+h1{
+  text-align: center;
+  border-bottom: solid 1px #FFFFFF55;
 }
 
 #today {
