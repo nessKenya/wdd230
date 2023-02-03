@@ -3,7 +3,7 @@
 body {
   margin: 0;
   background-color: #83690044;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 nav{
@@ -13,6 +13,12 @@ nav{
   padding-right: 0.5rem;
   padding-left: 0.5rem;
   background-color: #e5b800;
+}
+
+a.link{
+  text-decoration: none;
+  color: #f5c500;
+  font-size: bold;
 }
 
 #nav-left {
@@ -34,7 +40,11 @@ nav{
   margin-right: 0.5rem;
 }
 
-h1{
+h1, h2, h3, h4{
+  font-family: 'League Spartan', sans-serif;
+}
+
+h1.site-heading{
   text-align: center;
   border-bottom: solid 1px #FFFFFF55;
 }
@@ -47,12 +57,27 @@ h1{
   font-weight: bold;
 }
 
+#banner {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 0.1rem;
+  text-align: center;
+}
+
 .page-links>li>a{
   text-decoration: none;
   font-weight: bold;
   color: #000000;
   padding: .75rem;
   font-family: 'League Spartan', sans-serif;
+}
+
+.page-links>li>a:hover{
+  display: flex;
+  color: white;
+  background-color: #463800;
+  transform: scale(1.2);
+  transition: ease-in-out;
 }
 
 .page-links > li{
@@ -87,7 +112,7 @@ h1{
 .section{
   padding-top: 0.5rem;
   padding-left: 0.5rem;
-  height: 176px;
+  height: auto;
   background-color: #46380055;
 }
 
@@ -105,6 +130,9 @@ h1{
 
 .hero {
   grid-area: hero;
+  background-image: url('../images/mombasacc.jpg');
+  background-size: cover;
+  z-index: 40;
 }
 
 .event {
@@ -118,30 +146,33 @@ h1{
 
 .weather {
   grid-area: weather;
+  color: white;
 }
 
 .news {
   grid-area: news;
+  background-color: #463800;
+  color: white;
 }
 
 .spotlights{
   grid-area: spotlights;
   display: grid;
-  grid-template-areas: "spot-1" "spot-2";
+  grid-template-areas: "spot-1" "spot-2" "spot-3";
   padding: 1rem;
   background-color: #46380055;
 }
 
 .spot-1{
   grid-area: spot-1;
-  height: 176px;
+  height: 200px;
   background-color: #46380055;
   border: 1px solid #46380066;
 }
 
 .spot-2{
  grid-area: spot-2;
- height: 176px;
+ height: 200px;
  background-color: #46380055;
  border: 1px solid #46380066;
 }
@@ -209,4 +240,45 @@ h1{
 
 .olive {
   background-color: #463800;
+}
+
+.text-olive {
+  color: #463800;
+}
+
+.text-white{
+  color: #FFFFFF;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+
+.btn {
+  background-color: #f5c500;
+  color: black;
+  font-family: 'Nunito', sans-serif;
+  border-radius: 0.5rem;
+  border: 1px solid #f5c500;
+}
+
+.row {
+  display: flex;
+}
+
+.a-center{
+  align-items: center;
+}
+
+.j-center{
+  align-items: center;
 }

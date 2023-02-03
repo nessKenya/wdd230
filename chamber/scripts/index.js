@@ -1,4 +1,10 @@
 document.addEventListener("DOMContentLoaded", () => {
+  const day = new Date().getDay();
+
+  if(day === 1 || day === 2){
+    document.getElementById("banner").classList.remove('hidden');
+  }
+
   document.querySelector("#year").innerHTML = new Date().getFullYear();
   document.getElementById("updated").innerHTML = new Date();
   let today = new Intl.DateTimeFormat("en-UK", { dateStyle: "full" }).format(new Date());

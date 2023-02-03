@@ -22,6 +22,10 @@
     grid-area: join;
     display: block;
   }
+  .spot-3{
+    grid-area: spot-3;
+    display: none;
+   }
 
   .footer-top{
     display: flex;
