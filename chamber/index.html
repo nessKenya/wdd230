@@ -19,7 +19,7 @@
     </div>
     <nav>
       <div id="nav-left">
-        <div id="logo"><a href="https://nesskenya.github.io/wdd230/chamber/"><img src="./images/internetchamber.svg" alt="Mombasa Chamber of Commerce Logo"></a></div>
+        <div id="logo"><a href="https://nesskenya.github.io/wdd230/chamber/"><img src="./images/internetchamber.webp" alt="Mombasa Chamber of Commerce Logo"></a></div>
         <div id="links">
           <ul id="social-links">
             <li>
@@ -73,6 +73,11 @@
   </header>
   <main class="grid-container">
     <div class="hero section card">
+      <picture>
+        <source srcset="./images/wdd230-org-medium.webp" media="(min-width: 429px) and (max-width: 1023px)">
+        <source srcset="./images/wdd230-org-large.webp" media="(min-width: 1024px)">
+        <img src="./images/wdd230-org-small.webp" alt="hero-image" class="hero-image">
+      </picture>
       <div class="card-header">
         <h2 class="text-olive">Welcome to Mombasa!</h2>
       </div>
@@ -114,11 +119,15 @@
         </span>
         <span class="row a-center">
           <span><img src="./images/icons/temperature.svg" alt="temp icon"></span>
-          <span class="bold">33<sup>o</sup>C</span>
+          <span class="bold"><span id="temperature">1.7</span><sup>o</sup>C</span>
         </span>
         <span class="row a-center">
-          <span><img src="./images/icons/wind.svg" alt="sunny icon"></span>
-          <span class="text-white bold">Wind Speed: 3.5km/h</span>
+          <span><img src="./images/icons/wind.svg" alt="windsock icon"></span>
+          <span class="text-white bold">Wind Speed: <span id="wind-speed">7.9</span> km/h</span>
+        </span>
+        <span class="row a-center">
+          <span><img src="./images/icons/wind-chill.svg" alt="windchill icon"></span>
+          <span class="text-white bold">Wind Chill: <span id="wind-chill">3.5</span></span>
         </span>
       </div>
       <div class="card-footer">
@@ -193,7 +202,7 @@
   <footer>
     <div class="footer-top">
       <div class="footer-left">
-        <div id="footer-logo"><img src="./images/internetchamber.svg" alt="Mombasa Chamber of Commerce Logo"></div>
+        <div id="footer-logo"><img src="./images/internetchamber.webp" alt="Mombasa Chamber of Commerce Logo"></div>
         <div class="d-flex-column">
           <span>Mombasa Chamber of Commerce</span>
           <span>Mwembe Tayari</span>
@@ -211,5 +220,6 @@
     </div>
   </footer>
   <script src="./scripts/index.js"></script>
+  <script src="./scripts/windchill.js"></script>
 </body>
 </html>

@@ -21,6 +21,11 @@ a.link{
   font-size: bold;
 }
 
+img.hero-image {
+  max-width: 100%;
+  height: auto;
+}
+
 #nav-left {
   display: flex;
   justify-content: space-between;
@@ -110,6 +115,7 @@ h1.site-heading{
 }
 
 .section{
+  position: relative;
   padding-top: 0.5rem;
   padding-left: 0.5rem;
   height: auto;
@@ -130,9 +136,6 @@ h1.site-heading{
 
 .hero {
   grid-area: hero;
-  background-image: url('../images/mombasacc.jpg');
-  background-size: cover;
-  z-index: 40;
 }
 
 .event {
