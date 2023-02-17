@@ -1,0 +1,22 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 500px;
+}
+
+.container > img {
+  margin-bottom: 2rem;
+  box-shadow: 0px 0px 4px black;
+  transition-duration: 1s;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.scale{
+  transform: scale(0.8);
+  opacity: 0.5;
+}
