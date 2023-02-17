@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico">
+
+  <link rel="stylesheet" href="./styles/base.css">
+  <link rel="stylesheet" href="./styles/medium.css">
+  <link rel="stylesheet" href="./styles/large.css">
+  <title>Discover</title>
+</head>
+<body>
+  <header>
+    <div id="banner" class="hidden">
+      <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+    </div>
+    <nav>
+      <div id="nav-left">
+        <div id="logo"><a href="https://nesskenya.github.io/wdd230/chamber/"><img src="./images/internetchamber.webp" alt="Mombasa Chamber of Commerce Logo"></a></div>
+        <div id="links">
+          <ul id="social-links">
+            <li>
+              <a href="https://www.facebook.com/nelson.bifwolimuchonji/" target="_blank">
+                <span class="icon">
+                  <svg height="24px" width="24px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                    viewBox="0 0 291.319 291.319" xml:space="preserve">
+                  <g>
+                    <path style="fill:#000;" d="M145.659,0c80.45,0,145.66,65.219,145.66,145.66c0,80.45-65.21,145.659-145.66,145.659
+                      S0,226.109,0,145.66C0,65.219,65.21,0,145.659,0z"/>
+                    <path style="fill:#e5b800;" d="M163.394,100.277h18.772v-27.73h-22.067v0.1c-26.738,0.947-32.218,15.977-32.701,31.763h-0.055
+                      v13.847h-18.207v27.156h18.207v72.793h27.439v-72.793h22.477l4.342-27.156h-26.81v-8.366
+                      C154.791,104.556,158.341,100.277,163.394,100.277z"/>
+                  </g>
+                  </svg>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/nelson-muchonji-bifwoli/" target="_blank">
+                <span class="icon">
+                  <svg fill="#000" height="24px" width="24px" version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                  viewBox="0 0 32 32" xml:space="preserve">
+               <path d="M23,0H9C4,0,0,4,0,9v14c0,5,4,9,9,9h14c5,0,9-4,9-9V9C32,4,28,0,23,0z M12,25c0,0.6-0.4,1-1,1H7c-0.6,0-1-0.4-1-1V13
+                 c0-0.6,0.4-1,1-1h4c0.6,0,1,0.4,1,1V25z M9,11c-1.7,0-3-1.3-3-3s1.3-3,3-3s3,1.3,3,3S10.7,11,9,11z M26,25c0,0.6-0.4,1-1,1h-3
+                 c-0.6,0-1-0.4-1-1v-3.5v-1v-2c0-0.8-0.7-1.5-1.5-1.5S18,17.7,18,18.5v2v1V25c0,0.6-0.4,1-1,1h-3c-0.6,0-1-0.4-1-1V13
+                 c0-0.6,0.4-1,1-1h4c0.3,0,0.5,0.1,0.7,0.3c0.6-0.2,1.2-0.3,1.8-0.3c3,0,5.5,2.5,5.5,5.5V25z"/>
+               </svg>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div> 
+        <div id="toggle-box">
+          <span id="open-btn" class="btn block" onclick="openMenu()">&#9776;</span>
+          <span id="close-btn" class="btn hidden" onclick="closeMenu()">&times;</span>
+        </div>
+      </div>
+      
+      <div class="row">
+        <ul class="page-links hidden">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./discover.html" class="active">Discover</a></li>
+          <li><a href="#">Directory</a></li>
+          <li><a href="#">Join</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <h1 class="site-heading">Mombasa Chamber of Commerce</h1>
+      <p id="today"></p>
+    </nav>
+  </header>
+  <main class="discover-container">
+    <h2>Discover Mombasa</h2>
+    <h4 id="last-visit" class="text-olive">Last Visited</h4>
+
+    <div class="discover">
+      <div class="imgContainer scale">
+        <img src="./images/placeholder.jpg" data-src="./images/discover/pic1-lg.jpg" alt="picture">
+      </div>
+      <div class="description">
+        <p>
+          Mombasa is a Historical rich place that receives thousands of visitors locally as well as 
+          Internationally. The high number of tourists as well as scientists poses a great opportunity to
+          ISPs to improve their services as those traveling want to keep tabs with their families.
+        </p>
+      </div>
+      <div class="description olive text-white">
+        <p>
+          We live in the social media era where people love sharing what they are experiencing and keeping
+          the memories online. Can you imagine the presence of a reliable ISP, what will that do to those
+          who love fun and love sharing with the world their experiences? There is a market untapped with 
+          activities such as Jetskiing, Kayakiing and Surfing among many others. 
+        </p>
+      </div>
+      <div class="imgContainer scale">
+        <img src="./images/placeholder.jpg" data-src="./images/discover/pic2-lg.jpg" alt="picture">
+      </div>
+      <div class="imgContainer scale">
+        <img src="./images/placeholder.jpg" data-src="./images/discover/pic3-lg.jpg" alt="picture">
+      </div>
+      <div class="description">
+        <p>
+          Cusines is what makes places unique. When you visit a town, you find houses built uniquely, streets decorated 
+          in ways that express what the people believe. However, what makes everything special is the taste of food 
+          and drinks. There are amazing traditionally designed hotels such as Forodhani and Ambalala, where, you enjoy
+          the local cuisine while feeling the sea breeze and possibly surfing the internet. Can you imagine calling family 
+          to show them your newly done on your bucketlist and they find out it is something they have never heard of?
+        </p>
+      </div>
+      <div class="description olive text-white">
+        <p>
+          Mombasa is booming with both small scale businesses as well as medium sized businesses. The local government
+          known as the County Government of Mombasa has created enabling
+          environment that helps the SMEs to operate in a good environment. A reliable ISP with proper training will 
+          come in handy to these business people as they try to explore more potential markets.
+        </p>
+      </div>
+      <div class="imgContainer scale">
+        <img src="./images/placeholder.jpg" data-src="./images/discover/pic4-lg.jpg" alt="picture">
+      </div>
+      <div class="imgContainer scale">
+        <img src="./images/placeholder.jpg" data-src="./images/discover/pic5-lg.jpg" alt="picture">
+      </div>
+      <div class="description">
+        <p>
+          Mombasa Port is the largest port in East and Central Africa. The position coupled with improved
+          means of transport that includes air, train and road makes the movement of goods faster. Unfortunately,
+          one of the headaches of freight and logistics company is ensuring that their entered data is easily synced so that
+          their clients wherever they are, they are aware of the activities happening. This creates a massive opportunity 
+          for improved and reliable ISP.
+        </p>
+      </div>
+      <div class="description olive text-white">
+        <p>
+          Sports has a large role in any society. Sports can be for merely competition for silverware or it can be
+          an opportunity to unwind from work and other engagement and at the same time it can be used for team building.
+          No matter the type or aim of the sport, one thing remains important, communication. The communication 
+          can be News Reporters providing news back to their editors which needs to be done fast. It can also be team leaders
+          reporting the progress of team building. ISPs need to capitalize on this opportunity. 
+        </p>
+      </div>
+      <div class="imgContainer scale">
+        <img src="./images/placeholder.jpg" data-src="./images/discover/pic6-lg.jpg" alt="picture">
+      </div>
+    </div>
+    <h2>Mombasa Demography</h2>
+    <div class="discover">
+      <div class="imgContainer">
+        <img src="./images/demography/population-chart.jpg" alt="population-gender">
+      </div>
+      <div class="description">
+        <p>
+          According to the latest government demography and statistics, Mombasa has 610,257 males and 598,046
+          females. This shows that the number of men is higher than women, which was a little startling. A good 
+          percentage of these population are working and raising children. Internet has changed education 
+          massively. Today, assignments are done and submitted online. 
+        </p>
+      </div>
+      <div class="description olive text-white">
+        <p>
+          One of the world's fears is drop in population overtime. However, this hasn't been same application with 
+          Mombasa. Mombasa population according to Census has been on the rise. A higher population with many demanding 
+          good and reliable needs ISPs to listen and improve on their services. The population clearly is an indicator of untapped 
+          opportunity by the ISP. 
+        </p>
+      </div>
+      <div class="imgContainer">
+        <img src="./images/demography/population-increase.jpg" alt="population-increase">
+      </div>
+      </div>
+    </main>
+  <footer>
+    <div class="footer-top">
+      <div class="footer-left">
+        <div id="footer-logo"><img src="./images/internetchamber.webp" alt="Mombasa Chamber of Commerce Logo"></div>
+        <div class="d-flex-column">
+          <span>Mombasa Chamber of Commerce</span>
+          <span>Mwembe Tayari</span>
+          <span>6300-80100</span> 
+        </div>
+      </div>
+      <div class="footer-right">
+        <span>mombasa@chambers.com</span>
+        <span>+254746 137 423</span>
+        <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127357.68456334736!2d39.66626314999999!3d-4.03518875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x184012e78ec02c7d%3A0xcb618bbc35d0db5a!2sMombasa!5e0!3m2!1sen!2ske!4v1674940829710!5m2!1sen!2ske" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="text-center">&copy; <span id="year"></span> MCC | Nelson B. Muchonji | WDD 230 Project | Nairobi, Kenya | Last Updated: <span id="updated"></span></p>
+    </div>
+  </footer>
+  <script src="./scripts/index.js"></script>
+  <script src="./scripts/lazyload.js"></script>
+</body>
+</html>

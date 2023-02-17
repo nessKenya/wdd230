@@ -49,4 +49,7 @@
     align-items: center;
     text-align: center;
   }
+  .imgContainer:hover{
+    transform: scale(1.2);
+  }
 }
