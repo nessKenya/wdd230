@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Nunito:ital@0;1&family=Oswald&family=Tilt+Warp&display=swap');
+
+
+body{
+    margin: 0 auto;
+    font-family: 'Oswald', sans-serif;
+    width: 80%;
+    font-size: 18px;
+}
+h1{
+    text-align: center;
+    color: #0609d4;
+    border-bottom: dotted #000108;
+    font-family: 'Tilt Warp', cursive;
+}
+table{
+    border-collapse: collapse;
+    border: 2px solid rgba(240, 5, 169);
+    margin: 0px auto;
+}
+caption{
+    caption-side: bottom;
+    margin-top: 5px;
+}
+tbody tr:nth-child(2) {
+    background-color: rgba(240, 5, 169, 0.2);
+}
+.blank, .tablename{
+    background-color: rgb(0, 0, 0);
+    color:whitesmoke;
+    border: none;
+    padding: 15px;
+    font-size: 22px;
+}
+th,td {
+    border: 1px solid#000;
+    padding: 20px;
+    text-align: center;
+}
+th{
+    color: whitesmoke;
+    background-color: #5e5b5b;
+}
+
+.tick{
+    color: #0609d4;
+}
+
+.unwanted{
+    color: rgba(240, 5, 169);
+}
