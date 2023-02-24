@@ -15,6 +15,7 @@ nav{
   background-color: #e5b800;
 }
 
+
 a.link{
   text-decoration: none;
   color: #f5c500;
@@ -47,6 +48,7 @@ img.hero-image {
 
 h1, h2, h3, h4{
   font-family: 'League Spartan', sans-serif;
+  margin-left: 1rem;
 }
 
 h1.site-heading{
@@ -325,4 +327,129 @@ h1.site-heading{
 #demography>img{
   width: 100%;
   box-shadow: 0px 0px 8px #463800;
+}
+
+.join-grid{
+  padding: 1rem;
+}
+
+#joinForm{
+  display: flex;
+  flex-direction: column;
+  background-color: #FFF;
+  padding: 4rem;
+  border-radius: 1rem;
+}
+
+#joinForm>label>input{
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border: 1px solid #FFF;
+  background-color: #83690033;
+  border-radius: 1rem;
+}
+
+#joinForm>label>input:focus{
+  outline: none;
+  border: 2px solid #463800;
+}
+
+label{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  color: #463800;
+}
+
+::placeholder {
+  color: #463800aa;
+}
+
+#joinForm>label>select{
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border: 1px solid #FFF;
+  color: #463800;
+  font-weight: bold;
+  background-color: #83690033;
+  border-radius: 1rem;
+  outline: none;
+}
+
+#joinForm>label>textarea{
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border: 1px solid #FFF;
+  background-color: #83690033;
+  border-radius: 1rem;
+}
+
+.flex-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#membership-banner{
+  visibility: hidden;
+  height: 1px;
+  margin:0;
+}
+
+#m-level{
+  font-size: 2rem;
+  padding: 1rem;
+  color: #463800;
+  border-bottom: 2px solid #46380055;
+  margin-bottom: 3rem;
+}
+
+#pricing{
+  font-size: 3rem;
+  font-weight: bolder;
+  padding: 2rem;
+  background-color:#463800;
+  color: #FFF;
+  border-radius: 4rem;
+  margin-bottom: 2rem;
+}
+
+.benefit{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.check{
+  font-size: 2rem;
+  color: #463800;
+}
+
+.x{
+  font-size: 2rem;
+  color: #46380055;
+}
+
+#thankyou-box{
+  padding: 2rem;
+  font-weight: bolder;
+  font-size: 7rem;
+  color:#463800;
+  border: 0.75rem solid #463800;
+  width: 25%;
+  margin: 4rem auto;
+}
+
+.thankyou-container{
+  text-align: center;
+  font-weight: bolder;
+  color: #463800;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.thankyou-container p{
+  font-size: 18px;
 }
