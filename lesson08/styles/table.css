@@ -22,7 +22,7 @@ caption{
     caption-side: bottom;
     margin-top: 5px;
 }
-tbody tr:nth-child(2) {
+tbody tr:nth-child(even) {
     background-color: rgba(240, 5, 169, 0.2);
 }
 .blank, .tablename{
