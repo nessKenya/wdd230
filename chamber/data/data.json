@@ -1,0 +1,100 @@
+{
+  "directories": [
+    {
+      "name":"Tricepts Management",
+      "address":"Nkrumah Road, North Wing, 1st Floor.",
+      "phoneNumber":"(254)726 502 300",
+      "websiteUrl":"http://tmskenya.com",
+      "logo":"http://tmskenya.com/wp-content/uploads/2018/01/logo.png",
+      "membershipLevel":"Gold"
+    },
+    {
+      "name":"Alfajiri Auctioneers",
+      "address":"M-Plaza, 1st Floor Maungano Road.",
+      "phoneNumber":"(254) 711 245 043",
+      "websiteUrl":"https://www.alfajiriauctioneers.com",
+      "logo":"https://www.alfajiriauctioneers.com/img/logo.png",
+      "membershipLevel":"NP Membership"
+    },
+    {
+      "name":"Filiken Transit Forwarders",
+      "address":"Plot 264, Waiyaki Road.",
+      "phoneNumber":"(254) 020 5260254",
+      "websiteUrl":"https://filiken.co.ke",
+      "logo":"https://filiken.co.ke/wp-content/uploads/2022/07/filiken.png",
+      "membershipLevel":"Bronze"
+    },
+    {
+      "name":"Heavy Industry Logistics Ltd",
+      "address":"Texas Towers, Fidel Odinga Road.",
+      "phoneNumber":"(254) 796 252 525",
+      "websiteUrl":"https://hilogafrica.com",
+      "logo":"https://www.kenyabizlist.com/logos/14003.jpg",
+      "membershipLevel":"Gold"
+    },
+    {
+      "name":"Kaydee Construction Ltd",
+      "address":"Mikindani, Behind CMC.",
+      "phoneNumber":"(254) 2020 38280",
+      "websiteUrl":"http://www.kaydeegroup.com",
+      "logo":"https://www.kenyabizlist.com/logos/14000.jpg",
+      "membershipLevel":"Bronze"
+    },
+    {
+      "name":"Furniturerama Limited",
+      "address":"Baringo road (near Mewa Hospital).",
+      "phoneNumber":"(254) 726 855 355",
+      "websiteUrl":"https://furniturerama.co.ke",
+      "logo":"https://www.kenyabizlist.com/logos/13912.jpg",
+      "membershipLevel":"NP Membership"
+    },
+    {
+      "name":"Samstar International",
+      "address":"P.O.BOX 41898.",
+      "phoneNumber":"(254) 734 436 668",
+      "websiteUrl":"https://www.facebook.com/samstarinternationallimited",
+      "logo":"https://www.kenyabizlist.com/logos/13904.jpg",
+      "membershipLevel":"Gold"
+    },
+    {
+      "name":"Webrunner Furniture",
+      "address":"Behind A-One Supermarket.",
+      "phoneNumber":"(254) 751 111 005",
+      "websiteUrl":"https://wfc.co.ke",
+      "logo":"https://www.kenyabizlist.com/logos/13899.jpg",
+      "membershipLevel":"NP Membership"
+    },
+    {
+      "name":"Xfor Security Solutions",
+      "address":"Section 1, Corner of Links Road.",
+      "phoneNumber":"(254) 20 200 9999",
+      "websiteUrl":"http://www.xfor.co.ke",
+      "logo":"https://www.kenyabizlist.com/logos/13713.jpg",
+      "membershipLevel":"Silver"
+    },
+    {
+      "name":"Swift Connections PR",
+      "address":"Nkrumah street.",
+      "phoneNumber":"(254) 721 389 019",
+      "websiteUrl":"https://www.facebook.com/swiftconnectionsprandadvertising",
+      "logo":"https://www.kenyabizlist.com/logos/13484.jpg",
+      "membershipLevel":"Bronze"
+    },
+    {
+      "name":"Vintex Technologies",
+      "address":"Kamba Building Opp. Bus station.",
+      "phoneNumber":"(254) 735 169 305",
+      "websiteUrl":"https://www.vintextechnologies.com",
+      "logo":"https://www.kenyabizlist.com/logos/13403.jpg",
+      "membershipLevel":"Gold"
+    },
+    {
+      "name":"Unik Driving School",
+      "address":"Austin House, Moi Ave, Mombasa.",
+      "phoneNumber":"(254) 722 899 244",
+      "websiteUrl":"https://unik.co.ke",
+      "logo":"https://www.kenyabizlist.com/logos/13989.jpg",
+      "membershipLevel":"Silver"
+    }
+  ]
+}

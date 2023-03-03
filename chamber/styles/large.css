@@ -112,4 +112,9 @@
     height: 70%;
     margin-top: 40%;
   }
+
+  /* directory styling */
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }

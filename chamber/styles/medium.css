@@ -52,4 +52,9 @@
   .imgContainer:hover{
     transform: scale(1.2);
   }
+
+  /* directory page styling */
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }
