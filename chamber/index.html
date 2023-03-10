@@ -76,7 +76,7 @@
   </header>
   <main class="grid-container">
     <div class="hero section card">
-      <picture>
+ <picture>
         <source srcset="./images/wdd230-org-medium.webp" media="(min-width: 429px) and (max-width: 1023px)">
         <source srcset="./images/wdd230-org-large.webp" media="(min-width: 1024px)">
         <img src="./images/wdd230-org-small.webp" alt="hero-image" class="hero-image">
@@ -88,7 +88,7 @@
 
       </div>
       <div class="card-footer">
-        <button class="btn">Join the Chamber</button>
+        <button onclick="window.location.href='join.html';" class="btn">Join the Chamber</button>
       </div>
     </div>
     <div class="event section card">
@@ -113,24 +113,23 @@
     <div class="weather section card olive text-white">
       <div class="card-header">
         <h2>Weather</h2>
-        
       </div>
       <div class="card-body">
         <span class="row a-center">
-          <span><img src="./images/icons/sun.svg" alt="sunny icon"></span>
-          <span class="bold">It is Sunny Today!</span>
+          <span><img src="" alt="weather icon" id="weather-icon"></span>
+          <span class="bold" id="description"></span>
         </span>
         <span class="row a-center">
           <span><img src="./images/icons/temperature.svg" alt="temp icon"></span>
-          <span class="bold"><span id="temperature">1.7</span><sup>o</sup>C</span>
+          <span class="bold"><span id="temperature"></span><sup>o</sup>C</span>
         </span>
         <span class="row a-center">
           <span><img src="./images/icons/wind.svg" alt="windsock icon"></span>
-          <span class="text-white bold">Wind Speed: <span id="wind-speed">7.9</span> km/h</span>
+          <span class="text-white bold">Wind Speed: <span id="wind-speed"></span> km/h</span>
         </span>
         <span class="row a-center">
           <span><img src="./images/icons/wind-chill.svg" alt="windchill icon"></span>
-          <span class="text-white bold">Wind Chill: <span id="wind-chill">3.5</span></span>
+          <span class="text-white bold">Wind Chill: <span id="wind-chill"></span></span>
         </span>
       </div>
       <div class="card-footer">
@@ -189,7 +188,7 @@
     </div>
     <div class="join section">
       <div class="card-header d-flex-column a-center j-center">
-        <button class="btn">Join</button>
+        <button onclick="window.location.href='join.html';" class="btn">Join</button>
       </div>
       <div class="card-body">
         <p class="text-center">

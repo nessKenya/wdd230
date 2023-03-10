@@ -22,6 +22,7 @@ a.link{
   font-size: bold;
 }
 
+
 img.hero-image {
   max-width: 100%;
   height: auto;
@@ -100,6 +101,7 @@ h1.site-heading{
   padding: 1rem;
   font-weight: bold;
   font-size: 24px;
+  cursor:pointer;
 }
 
 .page-links > li > .active {
@@ -434,10 +436,10 @@ label{
 #thankyou-box{
   padding: 2rem;
   font-weight: bolder;
-  font-size: 7rem;
+  font-size: 3.5rem;
   color:#463800;
   border: 0.75rem solid #463800;
-  width: 25%;
+  width: 35%;
   margin: 4rem auto;
 }
 
@@ -548,5 +550,6 @@ label{
 }
 
 .directory-card>img{
-  width: 268px;
+  width: 80px;
+  height: 80px;
 }

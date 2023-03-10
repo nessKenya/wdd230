@@ -25,7 +25,6 @@ const displayCategories = (data) => {
     const logoImg = document.createElement('img');
     logoImg.setAttribute('src', directory.logo);
     logoImg.setAttribute('alt', `${directory.name} logo`);
-    logoImg.setAttribute('height', '150');
 
     const span1 = document.createElement('span');
     span1.textContent = `${directory.name}`;
@@ -60,6 +59,8 @@ const getDirectories = async () => {
   const response = await fetch(url);
   const directories = await response.json();
   
+  console.log(directories)
+
   displayCategories(directories);
 }
 
