@@ -1,5 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Nunito:ital@0;1&family=Oswald&family=Playfair+Display:wght@500&family=Tilt+Warp&display=swap');
+
 body{
     width: 960px;
     margin: 0 auto;
     background-color:aliceblue;
+    font-family: 'Playfair Display', serif;
+}
+
+img{
+    border: 2px solid white;
+    box-shadow: 10px 5px 5px rgb(31, 30, 30);
+}
+
+span{
+    font-size: 20px;
 }
