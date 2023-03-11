@@ -96,6 +96,9 @@ document.getElementById("membershipLevel").addEventListener("change", ()=>{
 
 let month = new Date().getMonth() + 1;
 let day = new Date().getDate();
+let hours = new Date().getHours();
+let minutes = new Date().getMinutes();
+let seconds = new Date().getSeconds();
 if(month < 10){
   month = "0" + month;
 }
@@ -103,8 +106,23 @@ if(month < 10){
 if(day < 10){
   day = "0" + day;
 }
+if(hours < 10){
+  hours = "0" + hours;
+}
+
+if(minutes < 10){
+  minutes = "0" + minutes;
+}
+
+if(seconds < 10){
+  seconds = "0" + seconds;
+}
+
 
 const today = new Date().getFullYear() + "-" + month + "-" + day;
+const time = hours + ":" + minutes + ":" + seconds;
 document.getElementById("today").value = today;
+document.getElementById("time").value = time;
 
 console.log(document.getElementById("today").value)
+console.log(document.getElementById("time").value)
