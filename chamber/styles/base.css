@@ -140,6 +140,8 @@ h1.site-heading{
 
 .hero {
   grid-area: hero;
+  background-image: url('../images/mombasacc.jpg');
+  background-size: cover;
 }
 
 .event {
