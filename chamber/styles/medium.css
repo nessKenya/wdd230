@@ -57,4 +57,31 @@
   .grid {
     grid-template-columns: 1fr 1fr;
   }
+
+  /* contact page */
+  .display-text-1 {
+    font-size: 3rem;
+    color: #463800;
+  }
+  
+  .display-text-2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+  .contact-content{
+    grid-template-columns: 1fr;
+  }
+
+  #contact-box{
+    margin-right: 2rem;
+  }
+
+  #contact-left{
+    background-color: #FFF;
+    padding: 4rem;
+    margin-left: 2rem;
+    margin-top: -6rem;
+    width: 80%;
+  }
 }

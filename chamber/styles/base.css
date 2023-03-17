@@ -19,7 +19,7 @@ nav{
 a.link{
   text-decoration: none;
   color: #f5c500;
-  font-size: bold;
+  font-weight: bold;
 }
 
 
@@ -270,7 +270,6 @@ h1.site-heading{
   align-items: center;
   padding: 1rem;
 }
-
 
 .btn {
   background-color: #f5c500;
@@ -554,4 +553,51 @@ label{
 .directory-card>img{
   width: 80px;
   height: 80px;
+}
+
+/* contact page */
+.contact-content {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+}
+
+.display-text-1 {
+  font-size: 2rem;
+  color: #463800;
+}
+
+.display-text-2 {
+  font-weight: bold;
+}
+
+#contact-box{
+  padding: 3rem;
+  background-color: #46380044;
+  margin-bottom: 4rem;
+}
+
+#contact-info {
+  margin-bottom: 2rem;
+}
+
+.divider{
+  border: 1px solid #463800;
+  width: 90%;
+}
+
+.mt {
+  margin-top: 4rem;
+}
+
+#contact-left{
+  background-color: #FFF;
+  padding: 2rem;
+}
+
+#contactForm{
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
 }

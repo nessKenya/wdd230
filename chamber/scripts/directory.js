@@ -1,4 +1,17 @@
 document.addEventListener("DOMContentLoaded", () => {
+  const day = new Date().getDay();
+
+  if (day === 1 || day === 2) {
+    document.getElementById("banner").classList.remove("hidden");
+  }
+
+  document.querySelector("#year").innerHTML = new Date().getFullYear();
+  document.getElementById("updated").innerHTML = new Date();
+  let today = new Intl.DateTimeFormat("en-UK", { dateStyle: "full" }).format(
+    new Date()
+  );
+  document.querySelector("#today").innerHTML = today;
+
   const gridBtn = document.getElementById("grid");
   gridBtn.addEventListener('click', ()=>{
     document.getElementById("directory").classList.remove('list');
@@ -15,7 +28,19 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-const url = './data/data.json'
+function openMenu() {
+  document.querySelector(".page-links").classList.remove("hidden");
+  document.querySelector("#open-btn").classList.add("hidden");
+  document.querySelector("#close-btn").classList.remove("hidden");
+}
+
+function closeMenu() {
+  document.querySelector(".page-links").classList.add("hidden");
+  document.querySelector("#open-btn").classList.remove("hidden");
+  document.querySelector("#close-btn").classList.add("hidden");
+}
+
+const uri = './data/data.json'
 
 const displayCategories = (data) => {
   data.directories.forEach(directory => {
@@ -56,10 +81,8 @@ const displayCategories = (data) => {
 }
 
 const getDirectories = async () => {
-  const response = await fetch(url);
+  const response = await fetch(uri);
   const directories = await response.json();
-  
-  console.log(directories)
 
   displayCategories(directories);
 }

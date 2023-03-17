@@ -124,5 +124,3 @@ const time = hours + ":" + minutes + ":" + seconds;
 document.getElementById("today").value = today;
 document.getElementById("time").value = time;
 
-console.log(document.getElementById("today").value)
-console.log(document.getElementById("time").value)

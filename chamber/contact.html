@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="./styles/base.css">
   <link rel="stylesheet" href="./styles/medium.css">
   <link rel="stylesheet" href="./styles/large.css">
-  <title>Discover</title>
+  <title>Contact Us</title>
 </head>
 <body>
   <header>
@@ -62,23 +62,84 @@
         <ul class="page-links hidden">
           <li><a href="./index.html">Home</a></li>
           <li><a href="./discover.html">Discover</a></li>
-          <li><a href="#">Directory</a></li>
-          <li><a href="./join.html" class="active">Join</a></li>
-          <li><a href="./contact.html">Contact</a></li>
+          <li><a href="./directory.html">Directory</a></li>
+          <li><a href="./join.html">Join</a></li>
+          <li><a href="./contact.html" class="active">Contact</a></li>
         </ul>
       </div>
       <h1 class="site-heading">Mombasa Chamber of Commerce</h1>
       <p id="today"></p>
     </nav>
   </header>
-  <main class="thankyou-container">
-    <p>Congratulations for joining the Mombasa Chamber Of Commerce. We are glad to have you on board.</p>
-    <p>You will receive further direction soon.</p>
-    <p>Enjoy safe surfing.</p>
-    <div id="thankyou-box">
-      <span>Thank</span><br> 
-      <span>You.</span> 
+  <main>
+    <div class="contact-content">
+      <div id="contact-box">
+        <div class="divider"></div>
+        <p class="display-text-1">Contact Us</p>
+        <div id="contact-info">
+          <p class="display-text-2">Mombasa Chamber of Commerce</p>
+          <p>Changamwe street, Mshomoroni</p>
+          <p>Mombasa, Kenya</p>
+        </div>
+        <p>(254) 478-8547</p>
+        <div class="divider mt"></div>
+      </div>
+  
+      <div id="contact-left">
+        <div>
+          <h2>General Inquiries</h2>
+          <p>Our team is always happy to answer general inquiries or route you to the right person to address your questions! Give us a call or fill out the form below.</p>
+        </div>
+        <div>
+          <h2>Membership</h2>
+          <p>For questions about joining the Chamber or accessing existing member benefits, including the community calendar and member news portal, contact:</p>
+          <a href="#" class="link">contact.mombasachamber.com</a>
+        </div>
+        <div>
+          <h2>Why Join Us?</h2>
+          <p>Each day, a new technology emergies which requires the right platform to help you stay updated. We are the right place for you.</p>
+        </div>
+        <div>
+          <h2>Awards/ Honors</h2>
+          <p>Africa Safe Surfing Internet Honors</p>
+        </div>
+        <div>
+          <h2>Media Enquiries</h2>
+          <p>Stylista Odonja</p>
+          <p>Director Public Relations and Media</p>
+          <p>odonja@mombasachamber.com</p>
+          <p>call: (254) 789 567-4230</p>
+        </div>
+      </div>
     </div>
+    <div id="contactForm">
+      <form action="./index.html" method="get" id="joinForm" class="mt">
+        <h2 class="text-olive">Get In Touch</h2>
+        <div class="divider"></div>
+        <label for="firstName" class="mt">
+          First Name*
+          <input id="firstName" type="text" name="firstName" required>
+        </label>
+        <label for="lastName">
+          Last Name*
+          <input id="lastName" type="text" name="lastName" required>
+        </label>
+        <label for="email">
+          Email*
+          <input id="email" type="email" placeholder="nelson@gmail.com" name="email" required>
+        </label>
+        <label for="businessName">
+          Business Name*
+          <input id="businessName" type="text" name="businessName" required>
+        </label>
+        <label>
+          What questions do you have for the Mombasa chamber?
+          <textarea name="businessDescription" cols="30" rows="10"></textarea>
+        </label>
+        <input type="submit" class="btn">
+      </form>
+    </div>
+    
   </main>
   <footer>
     <div class="footer-top">
@@ -101,6 +162,5 @@
     </div>
   </footer>
   <script src="./scripts/index.js"></script>
-  <script src="./scripts/lazyload.js"></script>
 </body>
 </html>
