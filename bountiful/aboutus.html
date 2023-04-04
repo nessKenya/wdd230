@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/base.css">
+  <link rel="stylesheet" href="./styles/medium.css">
+  <link rel="stylesheet" href="./styles/large.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" type="image/x-icon" href="/bountiful/images/icons/bountiful_fruits_favicon.png" alt="bountiful favicon">
+  <link href="https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Proza+Libre:wght@500&display=swap" rel="stylesheet">
+  <title>Bountiful-AboutUs</title>
+</head>
+<body>
+  <header>
+    <div class="bg-primary text-white text-center" id="top-banner">
+      CONTACT US: +1 (000)-000 0000 | info@bountiful.com
+    </div>
+    <nav id="top-nav">
+      <div>
+        <img src="./images/logo.png" alt="logo">
+      </div>
+      <div id="nav-links" class="hidden">
+        <span class="nav-link">
+          <a href="./home.html">Home</a>
+        </span>
+        <span class="nav-link">
+          <a href="./fresh.html">Fresh</a>
+        </span>
+        <span class="nav-link">
+          <a href="./aboutus.html">About Us</a>
+        </span>
+        <span class="nav-link">
+          <a href="./resource.html">Resource</a>
+        </span>
+      </div>
+      <div id="socials" class="hidden">
+        <a href="#" class="center"><img src="./images/icons/facebook.svg" alt="facebook icon"></a>
+        <a href="#" class="center"><img src="./images/icons/twitter.svg" alt="twitter icon"></a>
+        <a href="#" class="center"><img src="./images/icons/linkedin.svg" alt="linkedin icon"></a>
+      </div>
+      <span id="toggler" class="center">
+        <img src="./images/icons/humburger.svg" alt="menu icon" id="toggle-icon">
+      </span>
+    </nav>
+    <div id="dropdown-menu" class="hidden">
+      <div id="dropdown-links">
+        <div class="nav-link">
+          <a href="./home.html">Home</a>
+        </div>
+        <div class="nav-link">
+          <a href="./fresh.html">Fresh</a>
+        </div>
+        <div class="nav-link">
+          <a href="./aboutus.html">About Us</a>
+        </div>
+        <div class="nav-link">
+          <a href="./resource.html">Resource</a>
+        </div>
+      </div>
+      <div id="socials" class="center">
+        <a href="#" class="center"><img src="./images/icons/facebook.svg" alt="facebook icon"></a>
+        <a href="#" class="center"><img src="./images/icons/twitter.svg" alt="twitter icon"></a>
+        <a href="#" class="center"><img src="./images/icons/linkedin.svg" alt="linkedin icon"></a>
+      </div>
+    </div>
+  </header>
+  <main>
+      <div class="about-grid">
+        <div class="card">
+          <form id="contactForm">
+            <h1>Get In Touch</h1>
+            <div class="divider"></div>
+            <label for="firstName" class="mt">
+              First Name*
+            </label>
+            <input id="firstName" type="text" name="firstName" required>
+            <label for="lastName">
+              Last Name*
+            </label>
+            <input id="lastName" type="text" name="lastName" required>
+            <label for="email">
+              Email*
+            </label>
+            <input id="email" type="email" name="email" required>
+            <label>
+              What questions do you have for us?
+            </label>
+            <textarea name="businessDescription" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn">
+          </form>
+        </div>
+        <div class="contact-content">
+          <div id="contact-box">
+            <div class="divider"></div>
+            <p class="display-text-1">Contact Us</p>
+            <div id="contact-info">
+              <p class="display-text-2">Bountiful Foods</p>
+              <p>Augustino street</p>
+              <p> Carlsbad, California</p>
+            </div>
+            <p>+1 (000)-000 0000</p>
+            <div class="divider mt"></div>
+
+            <p class="display-text-1">Our History</p>
+            <div id="contact-info">
+              <p>Founded: 1963</p>
+              <p>CEO: Marco Lemagele</p>
+              <p class="display-text-2">We are a Family Owned Organic Foods Company</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, fugit! Similique officiis facilis, dolorum voluptate voluptatibus nam accusamus, consequuntur vitae quae assumenda excepturi asperiores corporis voluptatum nesciunt modi nulla in!</p>
+            </div>
+            <div class="divider mt"></div>
+          </div>
+        </div>
+    </div>
+  </main>
+  <footer>
+    <p class="text-center">&copy; <span id="year"></span> Bountiful Foods | Carlsbad, California | Last Visited: <span id="updated"></span></p>
+  </footer>
+  <script src="./scripts/index.js"></script>
+  <script src="./scripts/toggler.js"></script>
+</body>
+</html>

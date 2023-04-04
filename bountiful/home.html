@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/base.css">
+  <link rel="stylesheet" href="./styles/medium.css">
+  <link rel="stylesheet" href="./styles/large.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" type="image/x-icon" href="/bountiful/images/icons/bountiful_fruits_favicon.png" alt="bountiful favicon">
+  <link href="https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Proza+Libre:wght@500&display=swap" rel="stylesheet">
+  <title>Bountiful</title>
+</head>
+<body>
+  <header>
+    <div class="bg-primary text-white text-center" id="top-banner">
+      CONTACT US: +1 (000)-000 0000 | info@bountiful.com
+    </div>
+    <nav id="top-nav">
+      <div>
+        <img src="./images/logo.png" alt="bountiful logo">
+      </div>
+      <div id="nav-links">
+        <span class="nav-link">
+          <a href="./home.html">Home</a>
+        </span>
+        <span class="nav-link">
+          <a href="./fresh.html">Fresh</a>
+        </span>
+        <span class="nav-link">
+          <a href="./aboutus.html">About Us</a>
+        </span>
+        <span class="nav-link">
+          <a href="./resource.html">Resource</a>
+        </span>
+      </div>
+      <div id="socials">
+        <a href="#" class="center"><img src="./images/icons/facebook.svg" alt="facebook icon"></a>
+        <a href="#" class="center"><img src="./images/icons/twitter.svg" alt="twitter icon"></a>
+        <a href="#" class="center"><img src="./images/icons/linkedin.svg" alt="linkedin icon"></a>
+      </div>
+      <span id="toggler" class="center">
+        <img src="./images/icons/humburger.svg" alt="menu icon" id="toggle-icon">
+      </span>
+    </nav>
+    <div id="dropdown-menu" class="hidden">
+      <div id="dropdown-links">
+        <div class="nav-link">
+          <a href="./home.html">Home</a>
+        </div>
+        <div class="nav-link">
+          <a href="./fresh.html">Fresh</a>
+        </div>
+        <div class="nav-link">
+          <a href="./aboutus.html">About Us</a>
+        </div>
+        <div class="nav-link">
+          <a href="./resource.html">Resource</a>
+        </div>
+      </div>
+      <div id="socials" class="center">
+        <a href="#" class="center"><img src="./images/icons/facebook.svg" alt="facebook icon"></a>
+        <a href="#" class="center"><img src="./images/icons/twitter.svg" alt="twitter icon"></a>
+        <a href="#" class="center"><img src="./images/icons/linkedin.svg" alt="linkedin icon"></a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="home-grid">
+      <div class="jumbo p2">
+        <div>
+          <h1 class="banner-text">Fresh Organic fruits Live Healthily</h1>
+          <p class="banner-sub-text">Do you like a naturally made drink? Bountiful Foods is known for promoting a healthy living by offering you 
+            freshly made organic drinks as well as fruits. We cater for the tourists visiting the area and would love a special drink to remind them of their
+            visit or the locals who are working towards a healthy living.
+          </p>
+          <button class="btn"> <img src="./images/icons/right.svg" alt="right-icon"><a href="./fresh.html">Order Now</a></button>  
+        </div>
+        <div>
+          <img src="./images/oranges.png" alt="oranges" />
+        </div>
+      </div>
+      <div class="card" id="orders">
+        <h2>Your Orders</h2>
+      </div>
+    </div>
+    <div class="info-grid">
+      <div class="card">
+        <h2>Manhattan Beach</h2>
+        <p>
+          Known as “The Pearl of LA's South Bay,” this popular “Surfin' USA'” town south of LAX epitomizes beach life and is a favorite among locals and tourists alike. With an endless amount of things to see and do—from art and nature to surfing and shopping—there's something for everyone in the family.
+        </p>
+        <p>While enjoying the area and what it offers, we have something to accompany you, a healthy drink 
+          made according to your taste and liking.
+        </p>
+      </div>
+      <div class="weather-grid">
+        <div class="card text-center">
+          <h3>Today</h3>
+          <p>
+            <img src="" alt="weather icon" id="weather-icon-0">
+            <p id="description-0"></p>
+          </p>
+          <span class="bold"><span id="temperature-0"></span><sup>o</sup>C</span>
+          <p id="humidity-0"></p>
+        </div>
+        <div class="card text-center">
+          <h3>Tommorow</h3>
+          <p>
+            <img src="" alt="weather icon" id="weather-icon-1">
+            <p id="description-1"></p>
+          </p>
+          <span class="bold"><span id="temperature-1"></span><sup>o</sup>C</span>
+          <p id="humidity-1"></p>
+        </div>
+        <div class="card text-center">
+          <h3 id="forecast-date"></h3>
+          <p>
+            <img src="" alt="weather icon" id="weather-icon-2">
+            <p id="description-2"></p>
+          </p>
+          <span class="bold"><span id="temperature-2"></span><sup>o</sup>C</span>
+          <p id="humidity-2"></p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p class="text-center">&copy; <span id="year"></span> Bountiful Foods | Carlsbad, California | Last Visited: <span id="updated"></span></p>
+  </footer>
+  <script src="./scripts/index.js"></script>
+  <script src="./scripts/toggler.js"></script>
+</body>
+</html>

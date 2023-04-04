@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/base.css">
+  <link rel="stylesheet" href="./styles/medium.css">
+  <link rel="stylesheet" href="./styles/large.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" type="image/x-icon" href="/bountiful/images/icons/bountiful_fruits_favicon.png" alt="bountiful favicon">
+  <link href="https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Proza+Libre:wght@500&display=swap" rel="stylesheet">
+  <title>Bountiful-Fresh</title>
+</head>
+<body>
+  <header>
+    <div class="bg-primary text-white text-center" id="top-banner">
+      CONTACT US: +1 (000)-000 0000 | info@bountiful.com
+    </div>
+    <nav id="top-nav">
+      <div>
+        <img src="./images/logo.png" alt="logo">
+      </div>
+      <div id="nav-links" class="hidden">
+        <span class="nav-link">
+          <a href="./home.html">Home</a>
+        </span>
+        <span class="nav-link">
+          <a href="./fresh.html">Fresh</a>
+        </span>
+        <span class="nav-link">
+          <a href="./aboutus.html">About Us</a>
+        </span>
+        <span class="nav-link">
+          <a href="./resource.html">Resource</a>
+        </span>
+      </div>
+      <div id="socials" class="hidden">
+        <a href="#" class="center"><img src="./images/icons/facebook.svg" alt="facebook icon"></a>
+        <a href="#" class="center"><img src="./images/icons/twitter.svg" alt="twitter icon"></a>
+        <a href="#" class="center"><img src="./images/icons/linkedin.svg" alt="linkedin icon"></a>
+      </div>
+      <span id="toggler" class="center">
+        <img src="./images/icons/humburger.svg" alt="menu icon" id="toggle-icon">
+      </span>
+    </nav>
+    <div id="dropdown-menu" class="hidden">
+      <div id="dropdown-links">
+        <div class="nav-link">
+          <a href="./home.html">Home</a>
+        </div>
+        <div class="nav-link">
+          <a href="./fresh.html">Fresh</a>
+        </div>
+        <div class="nav-link">
+          <a href="./aboutus.html">About Us</a>
+        </div>
+        <div class="nav-link">
+          <a href="./resource.html">Resource</a>
+        </div>
+      </div>
+      <div id="socials" class="center">
+        <a href="#" class="center"><img src="./images/icons/facebook.svg" alt="facebook icon"></a>
+        <a href="#" class="center"><img src="./images/icons/twitter.svg" alt="twitter icon"></a>
+        <a href="#" class="center"><img src="./images/icons/linkedin.svg" alt="linkedin icon"></a>
+      </div>
+    </div>
+  </header>
+  <main>
+      <form action="" class="card text-center" id="freshForm">
+        <h2 class="m2">Create yourself a juice!</h2>
+        <label for="firstName">First Name</label>
+        <input type="text" id="firstName" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" required>
+        <hr>
+        <label for="fruit1">Select a fruit</label>
+        <select name="fruit1" id="fruit1" required></select>
+        <label for="fruit2">Select a fruit</label>
+        <select name="fruit2" id="fruit2" required></select>
+        <label for="fruit3">Select a fruit</label>
+        <select name="fruit3" id="fruit3" required></select>
+        <label for="instructions">Special Instructions(optional)</label>
+        <textarea name="instructions" id="instructions" cols="30" rows="10"></textarea>
+        <input class="btn" type="submit" value="Order" id="orderBtn">
+      </form>
+
+      <div class="card hidden" id="orderDetails">
+        <h2>Order Details</h2>
+        <div class="details">
+          <h3>First Name</h3>
+          <p id="name_order"></p>
+        </div>
+        <div class="details">
+          <h3>Email</h3>
+          <p id="email_order"></p>
+        </div>
+        <div class="details">
+          <h3>Phone Number</h3>
+          <p id="phone_order"></p>
+        </div>
+        <div class="details">
+          <h3>Fruits</h3>
+          <p id="fruits_order"></p>
+        </div>
+        <div class="details">
+          <h3>Instruction</h3>
+          <p id="instructions_order"></p>
+        </div>
+        <div class="details">
+          <h3>Order Date</h3>
+          <p id="order_date"></p>
+        </div>
+        <div class="details">
+          <h3>Nutritions</h3>
+          <div>
+            <div class="details">
+              <h5>Carbohydrates</h5>
+              <p id="carbohydrates"></p>
+            </div>
+            <div class="details">
+              <h5>Proteins</h5>
+              <p id="protein"></p>
+            </div>
+            <div class="details">
+              <h5>Fats</h5>
+              <p id="fat"></p>
+            </div>
+            <div class="details">
+              <h5>Sugar</h5>
+              <p id="sugar"></p>
+            </div>
+            <div class="details">
+              <h5>Calories</h5>
+              <p id="calories"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p class="text-center">&copy; <span id="year"></span> Bountiful Foods | Carlsbad, California | Last Visited: <span id="updated"></span></p>
+    </footer>
+    <script src="./scripts/index.js"></script>
+    <script src="./scripts/toggler.js"></script>
+</body>
+</html>
